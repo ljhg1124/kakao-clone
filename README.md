@@ -1,2 +1,3 @@
 # kakao-clone
- kakao-clone-study
+ 
+ kakao desktop app clone
