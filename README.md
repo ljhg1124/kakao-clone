@@ -80,3 +80,10 @@ display
 - Inline -> 서로 옆으로 붙은 형태, but weith, height 가 없다.
 - Block -> 박스들이 밑에 붙는것
 - Inline Block -> 박스들이 옆에 붙는것!
+
+Position
+
+- static -> 보이는 시점 이외에 전체화면에 표시. 디폴트 값.
+- fixed -> 보이는 시점의 화면에서 위치 고정
+- absolute -> absolute로 설정되면 해당 element와 관계있는(relative-부모박스) element를 살펴보고 이에 상응하는 포지션이 결정됨. 없으면 body에 마춰 포지션을 잡는다.
+- relative -> 부모박스를 지정해준다. absolute 포지션을 상대적으로이용하려면 부모 element에 꼭 relative를 붙여준다.
