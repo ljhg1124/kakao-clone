@@ -74,3 +74,9 @@ HTML <---> CSS 연결 방법
 <head> 태그 안에 
 <link href="styles.css" rel="stylesheet"> 이렇 폼으로 넣어주면 됨.
 </head>
+
+display
+
+- Inline -> 서로 옆으로 붙은 형태, but weith, height 가 없다.
+- Block -> 박스들이 밑에 붙는것
+- Inline Block -> 박스들이 옆에 붙는것!
