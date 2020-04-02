@@ -100,3 +100,29 @@ align-item
 flex-direction
 
 - 출력 방향
+
+pseudo-selector
+가상 셀렉터 만드는법
+
+<=== 1 ===>
+
+<style>
+input[type="password"]{
+  background-color : blue;
+}
+</style>
+
+<input type="password">
+
+<=== 2 ===>
+.box:last-child{
+background-color: pink
+}
+
+클래스인 box선언후 가상 셀렉터 last-child이용해 적용
+last-child은 모든박수중 마지막 박스를 가리킴.
+반대로 처음은 first-child 이다.
+child(n) 배열처럼 선택 가능함.
+
+위같이 input의 type password를 스타일 지정해 사용하면 옵션처럼 파랑색컬러가 입혀진다.
+html 태그, id, class 없이 스타일을 입힐 수 있다.
