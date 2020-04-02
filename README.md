@@ -80,6 +80,7 @@ display
 - Inline -> 서로 옆으로 붙은 형태, but weith, height 가 없다.
 - Block -> 박스들이 밑에 붙는것
 - Inline Block -> 박스들이 옆에 붙는것!
+- flex -> 부모 박스에만 적용한다. 창이 줄어들어도 그창에 마춰 조절된다. 위의 옵션들로 처리시 자동으로 조절되지 않고 아래로 이동한다. 부모에 flex를 선언하면 아래 자식들이 움직인다.
 
 Position
 
@@ -87,3 +88,15 @@ Position
 - fixed -> 보이는 시점의 화면에서 위치 고정
 - absolute -> absolute로 설정되면 해당 element와 관계있는(relative-부모박스) element를 살펴보고 이에 상응하는 포지션이 결정됨. 없으면 body에 마춰 포지션을 잡는다.
 - relative -> 부모박스를 지정해준다. absolute 포지션을 상대적으로이용하려면 부모 element에 꼭 relative를 붙여준다.
+
+justify-content
+
+- 수평관련 정렬
+
+align-item
+
+- 수직관련 정렬
+
+flex-direction
+
+- 출력 방향
