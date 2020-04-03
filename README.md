@@ -126,3 +126,5 @@ child(n) 배열처럼 선택 가능함.
 
 위같이 input의 type password를 스타일 지정해 사용하면 옵션처럼 파랑색컬러가 입혀진다.
 html 태그, id, class 없이 스타일을 입힐 수 있다.
+
+css - states
