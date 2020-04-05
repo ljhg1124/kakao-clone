@@ -173,3 +173,29 @@ ex)
 .box {
 transform: rotate(20deg);
 }
+
+// Animations
+
+- 키프레임 선언 후 애니메이션 이름 작성.
+- 스테이지 별로 0-50-100 또는 from - to
+- 원하는 효과 transform, transition 을 적용 한다.
+- animation 프로퍼티로 효과 적용.
+
+<style>
+      .box {
+        width: 500px;
+        height: 500px;
+        background: red;
+
+        animation: 1.5s scaleAndRotateSquare infinite ease-in-out;
+      }
+
+      @keyframes scaleAndRotateSquare {
+        from {
+          transform:none;
+        }
+        to {
+          transform: rotate(1turn) scale(.5, .5);
+        }
+      }
+</style>

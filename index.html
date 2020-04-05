@@ -12,7 +12,17 @@
         width: 500px;
         height: 500px;
         background: red;
-        transform: rotate(20deg);
+
+        animation: 1.5s scaleAndRotateSquare infinite ease-in-out;
+      }
+
+      @keyframes scaleAndRotateSquare {
+        from {
+          transform: none;
+        }
+        to {
+          transform: rotate(1turn) scale(0.5, 0.5);
+        }
       }
     </style>
   </head>
