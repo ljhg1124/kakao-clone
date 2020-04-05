@@ -8,20 +8,13 @@
     <link href="styles.css" rel="stylesheet" />
 
     <style>
-      .box {
-        width: 500px;
-        height: 500px;
-        background: red;
-
-        animation: 1.5s scaleAndRotateSquare infinite ease-in-out;
+      body {
+        background-color: green;
       }
 
-      @keyframes scaleAndRotateSquare {
-        from {
-          transform: none;
-        }
-        to {
-          transform: rotate(1turn) scale(0.5, 0.5);
+      @media screend and (min-width: 320px) and (max-width: 640px) {
+        body {
+          background-color: blue;
         }
       }
     </style>

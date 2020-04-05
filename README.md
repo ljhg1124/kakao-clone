@@ -199,3 +199,23 @@ transform: rotate(20deg);
         }
       }
 </style>
+
+// Media Queries
+
+- 브라우저가 큰지 작은지 알아보기
+- media 선언과 조건을 작성
+- 어떤 효과를 원하는지 적용.
+- media queries 관련 사이트
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+
+  <style>
+        body{
+          background-color:  green;
+        }
+  
+        @media screend and (min-width:320px) and (max-width:640px){
+          body{
+            background-color: blue;
+          }
+        }
+  </style>
