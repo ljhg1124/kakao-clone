@@ -3,30 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mixin' CSS and HTML</title>
+    <title>Transitions</title>
 
     <link href="styles.css" rel="stylesheet" />
 
     <style>
       .box {
-        background-color: red;
-        font-size: 40px;
-      }
-
-      .box:hover {
         background-color: green;
+        transition: all 1s ease-in-out;
       }
-
       .box:active {
-        background-color: pink;
-      }
-
-      .box:focus {
         background-color: blue;
       }
     </style>
   </head>
   <body>
-    <textarea class="box">lalalalala</textarea>
+    <span class="box">
+      text
+    </span>
   </body>
 </html>

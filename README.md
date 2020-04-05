@@ -69,20 +69,20 @@ css는 크게 두가지 파트로 나누어져 있다.
 
 \*/
 
-HTML <---> CSS 연결 방법
+// HTML <---> CSS 연결 방법
 
 <head> 태그 안에 
 <link href="styles.css" rel="stylesheet"> 이렇 폼으로 넣어주면 됨.
 </head>
 
-display
+// display
 
 - Inline -> 서로 옆으로 붙은 형태, but weith, height 가 없다.
 - Block -> 박스들이 밑에 붙는것
 - Inline Block -> 박스들이 옆에 붙는것!
 - flex -> 부모 박스에만 적용한다. 창이 줄어들어도 그창에 마춰 조절된다. 위의 옵션들로 처리시 자동으로 조절되지 않고 아래로 이동한다. 부모에 flex를 선언하면 아래 자식들이 움직인다.
 
-Position
+// Position
 
 - static -> 보이는 시점 이외에 전체화면에 표시. 디폴트 값.
 - fixed -> 보이는 시점의 화면에서 위치 고정
@@ -101,7 +101,7 @@ flex-direction
 
 - 출력 방향
 
-pseudo-selector
+// pseudo-selector
 가상 셀렉터 만드는법
 
 <=== 1 ===>
@@ -127,7 +127,7 @@ child(n) 배열처럼 선택 가능함.
 위같이 input의 type password를 스타일 지정해 사용하면 옵션처럼 파랑색컬러가 입혀진다.
 html 태그, id, class 없이 스타일을 입힐 수 있다.
 
-css - states
+// css - states
 
 - active, focus, visited, hover 등등이 있다.
 - .box:hover{} (클래스,id 이후 : <- 해주면 states에 접근할수 있다.)
@@ -148,3 +148,17 @@ background-color:pink;
 </style>
 
 <span class="box">lalalalala</span>
+
+// Transitions (트랜지션)
+
+ex)
+
+<style>
+      .box {
+        background-color: green;
+        transition: all 1s ease-in-out;
+      }
+      .box:active {
+        background-color: blue;
+      }
+</style>
