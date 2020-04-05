@@ -1,4 +1,4 @@
-# kakao-clone
+# kakao-clone 이론
 
 kakao desktop app clone
 
