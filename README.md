@@ -128,3 +128,23 @@ child(n) 배열처럼 선택 가능함.
 html 태그, id, class 없이 스타일을 입힐 수 있다.
 
 css - states
+
+- active, focus, visited, hover 등등이 있다.
+- .box:hover{} (클래스,id 이후 : <- 해주면 states에 접근할수 있다.)
+  ex)
+- hover - 마우스를 오버 할때 이밴트
+- active - 클릭할때 이벤트
+- focus - 선택 되었을때 이벤트
+
+<style>
+    .box{
+      background-color:red;
+      font-size: 40px;
+    }
+
+.box:hover{
+background-color:pink;
+}
+</style>
+
+<span class="box">lalalalala</span>
