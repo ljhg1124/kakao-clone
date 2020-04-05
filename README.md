@@ -156,9 +156,20 @@ ex)
 <style>
       .box {
         background-color: green;
-        transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out; <- 트랜지션 사용법
       }
       .box:active {
         background-color: blue;
       }
 </style>
+
+// transformations (트렌스포메이션)
+
+- html문서의 element들을 변경, 모습이 변하는 효과.
+- transfrom 내용 관련 링크
+  https://developer.mozilla.org/en-US/docs/Web/CSS/transform
+- transfrom 과 transition을 같이 적용하면 재미있는 효과를 줄수 있다.
+
+.box {
+transform: rotate(20deg);
+}
